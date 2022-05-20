@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./images/joeicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+  </head>
+  <body>
+    <!-- Static squares start -->
+    <div id="static-square1"></div>
+    <div id="static-square2"></div>
+    <div id="static-square3"></div>
+    <!-- Static squares end -->
+
+    <!-- Main portfolio wrapper start -->
+    <main class="portfolio-wrapper">
+      <!-- Menu start -->
+      <section class="menu-wrap">
+        <a href="./index.html"
+          ><li id="home">
+            <div class="content">
+              <h5>Home</h5>
+            </div>
+          </li></a
+        >
+        <a href="./about.html"
+          ><li id="about">
+            <div class="content">
+              <h5>About me</h5>
+            </div>
+          </li></a
+        >
+
+        <a href="./summary.html"
+          ><li id="summary">
+            <div class="content">
+              <h5>Professional Summary</h5>
+            </div>
+          </li></a
+        >
+
+        <a href="./contact.html"
+          ><li id="contact">
+            <div class="content">
+              <h5>Contact me</h5>
+            </div>
+          </li></a
+        >
+      </section>
+      <!-- Menu end -->
+
+      <!-- Portfolio section start -->
+      <section class="portfolio animated bounceInDown delay-2s">
+        <!-- Creatives -->
+        <div class="rotate">
+          <div class="back">
+            <p>
+              This was the final project at DCI. Using the MVC design pattern,
+              and adopting the MERN stack. This was a two team effort. My
+              colleague worked on the designs while I worked on the backend. We
+              both worked on the frontend using React functional components.
+            </p>
+            <a href="https://github.com/jsk900/creatives-api" target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="http://creatives.goldencat.co.uk/" target="blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+          <div class="front" id="creatives"></div>
+        </div>
+
+        <!-- Weather -->
+        <div class="rotate">
+          <div class="back">
+            <p>
+              This is a simple React weather app. Fetching data from the
+              openweather api.
+            </p>
+            <a href="https://github.com/jsk900/React-weather" target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="http://react-weather.goldencat.co.uk/" target="blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+          <div class="front" id="weather"></div>
+        </div>
+
+        <!-- Norbert -->
+        <div class="rotate">
+          <div class="back">
+            <p>
+              Created for a Berlin artist's portfolio. Written with React and
+              React-router-dom. Data is retrieved from the Flickr api. Images
+              are shown in a gallery and can be individually selected for
+              further details.
+            </p>
+            <a href="https://github.com/jsk900/norbert" target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://norbertkarrass.eu/" target="blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+          <div class="front" id="norbert"></div>
+        </div>
+
+        <!-- Dice -->
+        <div class="rotate">
+          <div class="back">
+            <p>I wrote this dice game for fun using vanilla Javascript</p>
+            <a href="https://github.com/jsk900/dice-game" target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="http://dice-game.goldencat.co.uk/" target="blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+          <div class="front" id="dice"></div>
+        </div>
+
+        <!-- Spotify -->
+        <div class="rotate">
+          <div class="back">
+            <p>
+              This site retrieves data from the elegant-croissant api for
+              Spotify and is written in vanilla Javascript. It also incorporates
+              infinite scrolling using the intersection observer api.
+            </p>
+            <a href="https://github.com/jsk900/spotify" target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="http://spotify.goldencat.co.uk/" target="blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+          <div class="front" id="spotify"></div>
+        </div>
+
+        <!-- Ecommerce -->
+        <div class="rotate">
+          <div class="back">
+            <p>
+              An Ecommerce demo React site using hooks, Context,
+              React-Router-dom and Local Storage for persistence.
+            </p>
+            <a
+              href="https://github.com/jsk900/Portfolio_React_Ecommerce"
+              target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="http://ecommerce.goldencat.co.uk/" target="blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+          <div class="front" id="ecommerce"></div>
+        </div>
+      </section>
+      <!-- Portfolio section end -->
+    </main>
+    <!-- portfolio wrapper end -->
+
+    <!-- Footer start -->
+    <footer>
+      <p>&copy; Joseph Urbina 2022</p>
+      <a href="https://github.com/jsk900" target="blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a href="https://linkedin.com/in/joseph-urbina-5024a78/" target="blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+    </footer>
+    <!-- Footer end -->
+  </body>
+</html>

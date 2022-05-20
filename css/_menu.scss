@@ -1,0 +1,26 @@
+// Menu properties accepting various arguments for positioning
+.menu-wrap {
+  z-index: 2;
+  @include menu(
+    $margin,
+    $translate1X,
+    $translate1Y,
+    $top,
+    $left,
+    $translate2X,
+    $translate2Y
+  );
+  @include mobile() {
+    margin: 3% 0 0 0;
+  }
+}
+
+@keyframes load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
